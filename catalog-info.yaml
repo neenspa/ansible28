@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible28
+  description: remove-a-vm
+  annotations:
+    backstage.io/kubernetes-id: ansible28
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/ansible28
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
